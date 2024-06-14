@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #00aaff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header img {
+    max-height: 50px;
+}
+.search-bar {
+    margin: 20px;
+    text-align: center;
+}
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+}
+.login-signup {
+    text-align: center;
+    margin: 20px;
+}
+.login-signup a {
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+.login-signup a.signup {
+    background-color: #28a745;
+}
+.categories {
+    text-align: right;
+    margin: 20px;
+}
+.categories a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.content {
+    text-align: center;
+    margin: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 50%;
+    object-fit: cover;
+}
+.card-content {
+    padding: 20px;
+    width: 50%;
+}
+.pagination {
+    text-align: center;
+    margin: 20px;
+}
